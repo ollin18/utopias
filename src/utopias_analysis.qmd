@@ -30,7 +30,8 @@ os.chdir("..")  # run from the repository root
 import numpy as np
 import pandas as pd
 
-from data import load_summary, load_items, build_axes, domain_counts
+from data import (load_summary, load_items, load_transit, load_crime,
+                  crime_shares, build_axes, domain_counts)
 from stats import (correlation_table, standardized_regression, partial_axes,
                    correlate, permutation_pearson)
 from figures import style, scatter_fit, barh_sites, corr_heatmap, typology_plot, label
@@ -39,6 +40,8 @@ style()
 
 m = build_axes(load_summary())
 items = load_items()
+transit = load_transit()
+crime = load_crime()
 sites = list(m["utopia_name"])
 m[["utopia_name", "n_unique_visitors", "median_distance_km", "median_wealth",
    "place_seg_S_a", "transit_score", "distinctiveness_index",
@@ -133,6 +136,17 @@ scatter_fit(m, "violent_share", "mean_wealth", "Violent share of crime",
             "Mean visitor wealth", "violent_vs_wealth", statloc="upper right")
 scatter_fit(m, "violent_share", "mean_distance_km", "Violent share of crime",
             "Mean distance from home (km)", "violent_vs_distance", statloc="upper right")
+```
+
+Resolving the violent share into categories, the within-buffer share of each
+crime type is correlated with mean visitor wealth. Rape and violent business
+robbery lead the negative associations.
+
+```{python}
+cm = m.merge(crime_shares(crime), on="utopia_name")
+share_cols = [c for c in cm.columns if c.startswith("share_")]
+preds = [(c, c.replace("share_crime_", "").replace("_", " ")) for c in share_cols]
+corr_heatmap(cm, preds, [("mean_wealth", "Visitor wealth")], "crime_category_heatmap")
 ```
 
 ## Wealth, distance and segregation

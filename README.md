@@ -27,15 +27,22 @@ into the results of the paper.
 Everything is aggregated to the site level. No individual traces are included.
 
 - `data/utopias_summary.csv` — one row per Utopía: unique visitors, home-to-site
-  distances, wealth mix, place-level segregation `S_a`, transit supply, service
-  catalog summaries, and surrounding crime by category.
+  distances, wealth mix, place-level segregation `S_a`, and the transit, service
+  and crime summaries joined together.
+- `data/transit_metrics.csv` — per-site public transport supply within the
+  300 m, 500 m and 1 km buffers (stops, routes, modes, weekday and weekend trips,
+  headways, metro and BRT presence, and the composite transit score).
+- `data/crime_metrics.csv` — per-site crime counts by category within the 1 km
+  buffer, the density per square kilometre and the violent share.
 - `data/service_items.csv` — the facility catalog in long form, with each
   facility's service domain, empirical rarity and infrastructure intensity.
 - `data/service_categories.csv` — the category-level rarity, infrastructure and
   distinctiveness weights.
-- `data/reported_statistics.json` — every correlation, confidence interval and
-  coefficient reported in the manuscript.
 - `data/README_taxonomy.md` — how the facility catalog was harmonized and scored.
+
+The transit and crime tables are the processed inputs behind the transit and
+crime columns of the summary; the notebook reads them directly for the
+per-category crime analysis.
 
 ## Requirements
 

@@ -16,6 +16,26 @@ def load_items(path: str = "data/service_items.csv") -> pd.DataFrame:
     return pd.read_csv(path)
 
 
+def load_transit(path: str = "data/transit_metrics.csv") -> pd.DataFrame:
+    """Per-site transit supply within the 300 m, 500 m and 1 km buffers."""
+    return pd.read_csv(path)
+
+
+def load_crime(path: str = "data/crime_metrics.csv") -> pd.DataFrame:
+    """Per-site crime counts by category within the 1 km buffer, plus violent share."""
+    return pd.read_csv(path).rename(columns={"utopia": "utopia_name"})
+
+
+def crime_shares(crime: pd.DataFrame) -> pd.DataFrame:
+    """Within-buffer share of each crime category, one row per site."""
+    cats = [c for c in crime.columns if c.startswith("crime_")
+            and c not in ("crime_total", "crime_per_km2", "crime_violent")]
+    keep = [c for c in cats if (crime[c] > 0).sum() >= 3]
+    sh = crime.set_index("utopia_name")[keep].div(
+        crime.set_index("utopia_name")["crime_total"], axis=0)
+    return sh.add_prefix("share_").reset_index()
+
+
 # ======================
 # Rescaling
 # ======================
