@@ -34,7 +34,6 @@ def label(name: str) -> str:
 
 def save(fig, name: str, outdir: str = "figs"):
     os.makedirs(outdir, exist_ok=True)
-    fig.savefig(f"{outdir}/{name}.pdf", bbox_inches="tight", facecolor="white")
     fig.savefig(f"{outdir}/{name}.png", bbox_inches="tight", facecolor="white")
     plt.close(fig)
 
