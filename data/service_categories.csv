@@ -1,0 +1,88 @@
+clean_category,n_utopias_with_category,rarity_score,infra_score,distinctiveness_weight,domain
+Scientific Research Center,1,0.9230769230769231,3,2.769230769230769,Education & Technology
+Interactive Virtual Aquarium,1,0.9230769230769231,3,2.769230769230769,Landmark Attraction
+Dinosaur Theme Park,1,0.9230769230769231,3,2.769230769230769,Landmark Attraction
+Planetarium,1,0.9230769230769231,3,2.769230769230769,Landmark Attraction
+Observatory,1,0.9230769230769231,3,2.769230769230769,Landmark Attraction
+Navigation Simulator,1,0.9230769230769231,3,2.769230769230769,Landmark Attraction
+Immersive Experience Room,1,0.9230769230769231,3,2.769230769230769,Landmark Attraction
+Ice Rink,1,0.9230769230769231,3,2.769230769230769,Landmark Attraction
+BMX Track,1,0.9230769230769231,3,2.769230769230769,Combat & Extreme Sports
+Axolotl Sanctuary,1,0.9230769230769231,3,2.769230769230769,Nature & Biodiversity
+Velodrome,1,0.9230769230769231,3,2.769230769230769,Team Sports & Athletics
+Wave Pool,1,0.9230769230769231,3,2.769230769230769,Landmark Attraction
+Design & Digital Arts School,2,0.8461538461538461,3,2.5384615384615383,Education & Technology
+Airplane Library & Flight Simulator,2,0.8461538461538461,3,2.5384615384615383,Landmark Attraction
+Interactive Farm,1,0.9230769230769231,2,1.8461538461538463,Nature & Biodiversity
+Hockey,1,0.9230769230769231,2,1.8461538461538463,Team Sports & Athletics
+Naval Shipyard Interactive,1,0.9230769230769231,2,1.8461538461538463,Landmark Attraction
+Tennis & Mini-Golf Courts,1,0.9230769230769231,2,1.8461538461538463,Racquet & Court Sports
+Geodesic Domes,1,0.9230769230769231,2,1.8461538461538463,Fitness
+Orchid Garden,1,0.9230769230769231,2,1.8461538461538463,Nature & Biodiversity
+Magic Fountain,1,0.9230769230769231,2,1.8461538461538463,Landmark Attraction
+Spa,1,0.9230769230769231,2,1.8461538461538463,Wellness & Therapy
+Digital Port,1,0.9230769230769231,2,1.8461538461538463,Landmark Attraction
+Cinema Space,1,0.9230769230769231,2,1.8461538461538463,Performing Arts & Culture
+Athletics Track (400 m),1,0.9230769230769231,2,1.8461538461538463,Team Sports & Athletics
+Robotics Workshops,1,0.9230769230769231,2,1.8461538461538463,Education & Technology
+Climate Change Museum,1,0.9230769230769231,2,1.8461538461538463,Landmark Attraction
+Chinampa,1,0.9230769230769231,2,1.8461538461538463,Nature & Biodiversity
+Turtle Sanctuary,1,0.9230769230769231,2,1.8461538461538463,Nature & Biodiversity
+Film School / Cinema Space,2,0.8461538461538461,2,1.6923076923076923,Performing Arts & Culture
+Indoor Multi-Floor Gym,2,0.8461538461538461,2,1.6923076923076923,Fitness
+Butterfly House,2,0.8461538461538461,2,1.6923076923076923,Nature & Biodiversity
+Artificial Lake,3,0.7692307692307692,2,1.5384615384615383,Nature & Biodiversity
+Climbing Wall,3,0.7692307692307692,2,1.5384615384615383,Combat & Extreme Sports
+Temazcal,3,0.7692307692307692,2,1.5384615384615383,Wellness & Therapy
+Hydrotherapy Pool,3,0.7692307692307692,2,1.5384615384615383,Wellness & Therapy
+Skatepark,4,0.6923076923076923,2,1.3846153846153846,Combat & Extreme Sports
+Rehabilitation Center,5,0.6153846153846154,2,1.2307692307692308,Wellness & Therapy
+Music School,6,0.5384615384615384,2,1.0769230769230769,Performing Arts & Culture
+Public Plaza,1,0.9230769230769231,1,0.9230769230769231,General Recreation
+Nutrition Services,1,0.9230769230769231,1,0.9230769230769231,Wellness & Therapy
+Rhythmic / Artistic Gymnastics,1,0.9230769230769231,1,0.9230769230769231,Fitness
+Observation Terrace,1,0.9230769230769231,1,0.9230769230769231,Landmark Attraction
+Skating Programs,1,0.9230769230769231,1,0.9230769230769231,Fitness
+Psychological Services,1,0.9230769230769231,1,0.9230769230769231,Wellness & Therapy
+Outdoor Cinema,1,0.9230769230769231,1,0.9230769230769231,Performing Arts & Culture
+Gynecology Services,1,0.9230769230769231,1,0.9230769230769231,Wellness & Therapy
+Dental Services,1,0.9230769230769231,1,0.9230769230769231,Wellness & Therapy
+Healthy Kitchen / Nutrition,1,0.9230769230769231,1,0.9230769230769231,Wellness & Therapy
+School Outreach,1,0.9230769230769231,1,0.9230769230769231,Education & Technology
+Fronton Court,1,0.9230769230769231,1,0.9230769230769231,Racquet & Court Sports
+Exhibition Access,1,0.9230769230769231,1,0.9230769230769231,Education & Technology
+Boxing Gym / School,7,0.46153846153846156,2,0.9230769230769231,Combat & Extreme Sports
+Central Kiosk,1,0.9230769230769231,1,0.9230769230769231,General Recreation
+Massage Therapy,1,0.9230769230769231,1,0.9230769230769231,Wellness & Therapy
+Theater,1,0.9230769230769231,1,0.9230769230769231,Performing Arts & Culture
+Classroom / Teaching Space,1,0.9230769230769231,1,0.9230769230769231,Education & Technology
+Cultural Workshop Tents / Teepees,1,0.9230769230769231,1,0.9230769230769231,Performing Arts & Culture
+Cultural & Recreational Activities,2,0.8461538461538461,1,0.8461538461538461,General Recreation
+Urban / Sustainable Garden,2,0.8461538461538461,1,0.8461538461538461,Nature & Biodiversity
+Relaxation Therapy,2,0.8461538461538461,1,0.8461538461538461,Wellness & Therapy
+Tai Chi,2,0.8461538461538461,1,0.8461538461538461,Wellness & Therapy
+Parkour Area,2,0.8461538461538461,1,0.8461538461538461,Combat & Extreme Sports
+Dog Park,2,0.8461538461538461,1,0.8461538461538461,General Recreation
+Early Stimulation & Speech Therapy,2,0.8461538461538461,1,0.8461538461538461,Wellness & Therapy
+Elderly Support Center,2,0.8461538461538461,1,0.8461538461538461,Social Services
+Martial Arts,2,0.8461538461538461,1,0.8461538461538461,Combat & Extreme Sports
+Addiction Treatment,2,0.8461538461538461,1,0.8461538461538461,Wellness & Therapy
+Library / Reading Space,3,0.7692307692307692,1,0.7692307692307692,Education & Technology
+Guided Athletic Training,3,0.7692307692307692,1,0.7692307692307692,Fitness
+Multi-Use Rooms,3,0.7692307692307692,1,0.7692307692307692,Performing Arts & Culture
+Auditorium,8,0.3846153846153846,2,0.7692307692307692,Performing Arts & Culture
+Basketball Court,3,0.7692307692307692,1,0.7692307692307692,Team Sports & Athletics
+Women's Support Center,4,0.6923076923076923,1,0.6923076923076923,Social Services
+Arts Workshops,4,0.6923076923076923,1,0.6923076923076923,Performing Arts & Culture
+Splash Pad & Water Play,4,0.6923076923076923,1,0.6923076923076923,Aquatics
+Green Areas / Urban Park,4,0.6923076923076923,1,0.6923076923076923,General Recreation
+Outdoor Gym,5,0.6153846153846154,1,0.6153846153846154,Fitness
+Yoga,5,0.6153846153846154,1,0.6153846153846154,Wellness & Therapy
+Children's Play Area,6,0.5384615384615384,1,0.5384615384615384,General Recreation
+Multi-Sports Court,7,0.46153846153846156,1,0.46153846153846156,Team Sports & Athletics
+Dance School,7,0.46153846153846156,1,0.46153846153846156,Performing Arts & Culture
+Soccer Fields,7,0.46153846153846156,1,0.46153846153846156,Team Sports & Athletics
+Open-Air Stage,7,0.46153846153846156,1,0.46153846153846156,Performing Arts & Culture
+Running Track,7,0.46153846153846156,1,0.46153846153846156,Team Sports & Athletics
+Swimming Pool,10,0.23076923076923073,2,0.46153846153846145,Aquatics
+Swimming Classes,10,0.23076923076923073,1,0.23076923076923073,Aquatics

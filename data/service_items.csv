@@ -1,0 +1,217 @@
+name,nombre_oficial,clean_category,domain,n_utopias_with_category,rarity_score,infra_score,distinctiveness_weight
+atzintli,Utopia Atzintli,Swimming Classes,Aquatics,10,0.23076923076923073,1,0.23076923076923073
+atzintli,Utopia Atzintli,Skatepark,Combat & Extreme Sports,4,0.6923076923076923,2,1.3846153846153846
+atzintli,Utopia Atzintli,Outdoor Gym,Fitness,5,0.6153846153846154,1,0.6153846153846154
+atzintli,Utopia Atzintli,Dance School,Performing Arts & Culture,7,0.46153846153846156,1,0.46153846153846156
+atzintli,Utopia Atzintli,Music School,Performing Arts & Culture,6,0.5384615384615384,2,1.0769230769230769
+atzintli,Utopia Atzintli,Open-Air Stage,Performing Arts & Culture,7,0.46153846153846156,1,0.46153846153846156
+atzintli,Utopia Atzintli,Multi-Sports Court,Team Sports & Athletics,7,0.46153846153846156,1,0.46153846153846156
+atzintli,Utopia Atzintli,Running Track,Team Sports & Athletics,7,0.46153846153846156,1,0.46153846153846156
+atzintli,Utopia Atzintli,Tai Chi,Wellness & Therapy,2,0.8461538461538461,1,0.8461538461538461
+atzintli,Utopia Atzintli,Yoga,Wellness & Therapy,5,0.6153846153846154,1,0.6153846153846154
+barco,Barco Utopía,Splash Pad & Water Play,Aquatics,4,0.6923076923076923,1,0.6923076923076923
+barco,Barco Utopía,Design & Digital Arts School,Education & Technology,2,0.8461538461538461,3,2.5384615384615383
+barco,Barco Utopía,Robotics Workshops,Education & Technology,1,0.9230769230769231,2,1.8461538461538463
+barco,Barco Utopía,School Outreach,Education & Technology,1,0.9230769230769231,1,0.9230769230769231
+barco,Barco Utopía,Climate Change Museum,Landmark Attraction,1,0.9230769230769231,2,1.8461538461538463
+barco,Barco Utopía,Digital Port,Landmark Attraction,1,0.9230769230769231,2,1.8461538461538463
+barco,Barco Utopía,Immersive Experience Room,Landmark Attraction,1,0.9230769230769231,3,2.769230769230769
+barco,Barco Utopía,Interactive Virtual Aquarium,Landmark Attraction,1,0.9230769230769231,3,2.769230769230769
+barco,Barco Utopía,Naval Shipyard Interactive,Landmark Attraction,1,0.9230769230769231,2,1.8461538461538463
+barco,Barco Utopía,Navigation Simulator,Landmark Attraction,1,0.9230769230769231,3,2.769230769230769
+barco,Barco Utopía,Observation Terrace,Landmark Attraction,1,0.9230769230769231,1,0.9230769230769231
+barco,Barco Utopía,Auditorium,Performing Arts & Culture,8,0.3846153846153846,2,0.7692307692307692
+barco,Barco Utopía,Open-Air Stage,Performing Arts & Culture,7,0.46153846153846156,1,0.46153846153846156
+barco,Barco Utopía,Outdoor Cinema,Performing Arts & Culture,1,0.9230769230769231,1,0.9230769230769231
+cuauhtlicalli,Utopia Cuauhtlicalli Aculco,Swimming Classes,Aquatics,10,0.23076923076923073,1,0.23076923076923073
+cuauhtlicalli,Utopia Cuauhtlicalli Aculco,Swimming Pool,Aquatics,10,0.23076923076923073,2,0.46153846153846145
+cuauhtlicalli,Utopia Cuauhtlicalli Aculco,Boxing Gym / School,Combat & Extreme Sports,7,0.46153846153846156,2,0.9230769230769231
+cuauhtlicalli,Utopia Cuauhtlicalli Aculco,Library / Reading Space,Education & Technology,3,0.7692307692307692,1,0.7692307692307692
+cuauhtlicalli,Utopia Cuauhtlicalli Aculco,Cultural & Recreational Activities,General Recreation,2,0.8461538461538461,1,0.8461538461538461
+cuauhtlicalli,Utopia Cuauhtlicalli Aculco,Public Plaza,General Recreation,1,0.9230769230769231,1,0.9230769230769231
+cuauhtlicalli,Utopia Cuauhtlicalli Aculco,Auditorium,Performing Arts & Culture,8,0.3846153846153846,2,0.7692307692307692
+cuauhtlicalli,Utopia Cuauhtlicalli Aculco,Dance School,Performing Arts & Culture,7,0.46153846153846156,1,0.46153846153846156
+cuauhtlicalli,Utopia Cuauhtlicalli Aculco,Music School,Performing Arts & Culture,6,0.5384615384615384,2,1.0769230769230769
+cuauhtlicalli,Utopia Cuauhtlicalli Aculco,Open-Air Stage,Performing Arts & Culture,7,0.46153846153846156,1,0.46153846153846156
+cuauhtlicalli,Utopia Cuauhtlicalli Aculco,Elderly Support Center,Social Services,2,0.8461538461538461,1,0.8461538461538461
+cuauhtlicalli,Utopia Cuauhtlicalli Aculco,Women's Support Center,Social Services,4,0.6923076923076923,1,0.6923076923076923
+cuauhtlicalli,Utopia Cuauhtlicalli Aculco,Basketball Court,Team Sports & Athletics,3,0.7692307692307692,1,0.7692307692307692
+cuauhtlicalli,Utopia Cuauhtlicalli Aculco,Multi-Sports Court,Team Sports & Athletics,7,0.46153846153846156,1,0.46153846153846156
+cuauhtlicalli,Utopia Cuauhtlicalli Aculco,Soccer Fields,Team Sports & Athletics,7,0.46153846153846156,1,0.46153846153846156
+ixtapalcalli,Utopia Ixtapalcalli Quetzalcoatl,Swimming Pool,Aquatics,10,0.23076923076923073,2,0.46153846153846145
+ixtapalcalli,Utopia Ixtapalcalli Quetzalcoatl,Boxing Gym / School,Combat & Extreme Sports,7,0.46153846153846156,2,0.9230769230769231
+ixtapalcalli,Utopia Ixtapalcalli Quetzalcoatl,Climbing Wall,Combat & Extreme Sports,3,0.7692307692307692,2,1.5384615384615383
+ixtapalcalli,Utopia Ixtapalcalli Quetzalcoatl,Design & Digital Arts School,Education & Technology,2,0.8461538461538461,3,2.5384615384615383
+ixtapalcalli,Utopia Ixtapalcalli Quetzalcoatl,Library / Reading Space,Education & Technology,3,0.7692307692307692,1,0.7692307692307692
+ixtapalcalli,Utopia Ixtapalcalli Quetzalcoatl,Indoor Multi-Floor Gym,Fitness,2,0.8461538461538461,2,1.6923076923076923
+ixtapalcalli,Utopia Ixtapalcalli Quetzalcoatl,Children's Play Area,General Recreation,6,0.5384615384615384,1,0.5384615384615384
+ixtapalcalli,Utopia Ixtapalcalli Quetzalcoatl,Arts Workshops,Performing Arts & Culture,4,0.6923076923076923,1,0.6923076923076923
+ixtapalcalli,Utopia Ixtapalcalli Quetzalcoatl,Auditorium,Performing Arts & Culture,8,0.3846153846153846,2,0.7692307692307692
+ixtapalcalli,Utopia Ixtapalcalli Quetzalcoatl,Cinema Space,Performing Arts & Culture,1,0.9230769230769231,2,1.8461538461538463
+ixtapalcalli,Utopia Ixtapalcalli Quetzalcoatl,Dance School,Performing Arts & Culture,7,0.46153846153846156,1,0.46153846153846156
+ixtapalcalli,Utopia Ixtapalcalli Quetzalcoatl,Music School,Performing Arts & Culture,6,0.5384615384615384,2,1.0769230769230769
+ixtapalcalli,Utopia Ixtapalcalli Quetzalcoatl,Multi-Sports Court,Team Sports & Athletics,7,0.46153846153846156,1,0.46153846153846156
+ixtapalcalli,Utopia Ixtapalcalli Quetzalcoatl,Dental Services,Wellness & Therapy,1,0.9230769230769231,1,0.9230769230769231
+ixtapalcalli,Utopia Ixtapalcalli Quetzalcoatl,Early Stimulation & Speech Therapy,Wellness & Therapy,2,0.8461538461538461,1,0.8461538461538461
+ixtapalcalli,Utopia Ixtapalcalli Quetzalcoatl,Gynecology Services,Wellness & Therapy,1,0.9230769230769231,1,0.9230769230769231
+ixtapalcalli,Utopia Ixtapalcalli Quetzalcoatl,Hydrotherapy Pool,Wellness & Therapy,3,0.7692307692307692,2,1.5384615384615383
+ixtapalcalli,Utopia Ixtapalcalli Quetzalcoatl,Nutrition Services,Wellness & Therapy,1,0.9230769230769231,1,0.9230769230769231
+ixtapalcalli,Utopia Ixtapalcalli Quetzalcoatl,Psychological Services,Wellness & Therapy,1,0.9230769230769231,1,0.9230769230769231
+ixtapalcalli,Utopia Ixtapalcalli Quetzalcoatl,Rehabilitation Center,Wellness & Therapy,5,0.6153846153846154,2,1.2307692307692308
+ixtapalcalli,Utopia Ixtapalcalli Quetzalcoatl,Spa,Wellness & Therapy,1,0.9230769230769231,2,1.8461538461538463
+ixtapalcalli,Utopia Ixtapalcalli Quetzalcoatl,Temazcal,Wellness & Therapy,3,0.7692307692307692,2,1.5384615384615383
+la_cascada,Utopia La Cascada Xicohtencatl,Swimming Classes,Aquatics,10,0.23076923076923073,1,0.23076923076923073
+la_cascada,Utopia La Cascada Xicohtencatl,Swimming Pool,Aquatics,10,0.23076923076923073,2,0.46153846153846145
+la_cascada,Utopia La Cascada Xicohtencatl,Boxing Gym / School,Combat & Extreme Sports,7,0.46153846153846156,2,0.9230769230769231
+la_cascada,Utopia La Cascada Xicohtencatl,Children's Play Area,General Recreation,6,0.5384615384615384,1,0.5384615384615384
+la_cascada,Utopia La Cascada Xicohtencatl,Green Areas / Urban Park,General Recreation,4,0.6923076923076923,1,0.6923076923076923
+la_cascada,Utopia La Cascada Xicohtencatl,Dance School,Performing Arts & Culture,7,0.46153846153846156,1,0.46153846153846156
+la_cascada,Utopia La Cascada Xicohtencatl,Music School,Performing Arts & Culture,6,0.5384615384615384,2,1.0769230769230769
+la_cascada,Utopia La Cascada Xicohtencatl,Open-Air Stage,Performing Arts & Culture,7,0.46153846153846156,1,0.46153846153846156
+la_cascada,Utopia La Cascada Xicohtencatl,Women's Support Center,Social Services,4,0.6923076923076923,1,0.6923076923076923
+la_cascada,Utopia La Cascada Xicohtencatl,Multi-Sports Court,Team Sports & Athletics,7,0.46153846153846156,1,0.46153846153846156
+la_cascada,Utopia La Cascada Xicohtencatl,Running Track,Team Sports & Athletics,7,0.46153846153846156,1,0.46153846153846156
+la_cascada,Utopia La Cascada Xicohtencatl,Soccer Fields,Team Sports & Athletics,7,0.46153846153846156,1,0.46153846153846156
+la_cascada,Utopia La Cascada Xicohtencatl,Addiction Treatment,Wellness & Therapy,2,0.8461538461538461,1,0.8461538461538461
+la_cascada,Utopia La Cascada Xicohtencatl,Rehabilitation Center,Wellness & Therapy,5,0.6153846153846154,2,1.2307692307692308
+libertad,Utopía Libertad,Swimming Classes,Aquatics,10,0.23076923076923073,1,0.23076923076923073
+libertad,Utopía Libertad,Swimming Pool,Aquatics,10,0.23076923076923073,2,0.46153846153846145
+libertad,Utopía Libertad,Children's Play Area,General Recreation,6,0.5384615384615384,1,0.5384615384615384
+libertad,Utopía Libertad,Dog Park,General Recreation,2,0.8461538461538461,1,0.8461538461538461
+libertad,Utopía Libertad,Observatory,Landmark Attraction,1,0.9230769230769231,3,2.769230769230769
+libertad,Utopía Libertad,Planetarium,Landmark Attraction,1,0.9230769230769231,3,2.769230769230769
+libertad,Utopía Libertad,Axolotl Sanctuary,Nature & Biodiversity,1,0.9230769230769231,3,2.769230769230769
+libertad,Utopía Libertad,Butterfly House,Nature & Biodiversity,2,0.8461538461538461,2,1.6923076923076923
+libertad,Utopía Libertad,Chinampa,Nature & Biodiversity,1,0.9230769230769231,2,1.8461538461538463
+libertad,Utopía Libertad,Interactive Farm,Nature & Biodiversity,1,0.9230769230769231,2,1.8461538461538463
+libertad,Utopía Libertad,Turtle Sanctuary,Nature & Biodiversity,1,0.9230769230769231,2,1.8461538461538463
+libertad,Utopía Libertad,Urban / Sustainable Garden,Nature & Biodiversity,2,0.8461538461538461,1,0.8461538461538461
+libertad,Utopía Libertad,Auditorium,Performing Arts & Culture,8,0.3846153846153846,2,0.7692307692307692
+libertad,Utopía Libertad,Tennis & Mini-Golf Courts,Racquet & Court Sports,1,0.9230769230769231,2,1.8461538461538463
+libertad,Utopía Libertad,Multi-Sports Court,Team Sports & Athletics,7,0.46153846153846156,1,0.46153846153846156
+libertad,Utopía Libertad,Soccer Fields,Team Sports & Athletics,7,0.46153846153846156,1,0.46153846153846156
+libertad,Utopía Libertad,Addiction Treatment,Wellness & Therapy,2,0.8461538461538461,1,0.8461538461538461
+libertad,Utopía Libertad,Healthy Kitchen / Nutrition,Wellness & Therapy,1,0.9230769230769231,1,0.9230769230769231
+libertad,Utopía Libertad,Hydrotherapy Pool,Wellness & Therapy,3,0.7692307692307692,2,1.5384615384615383
+libertad,Utopía Libertad,Massage Therapy,Wellness & Therapy,1,0.9230769230769231,1,0.9230769230769231
+libertad,Utopía Libertad,Rehabilitation Center,Wellness & Therapy,5,0.6153846153846154,2,1.2307692307692308
+libertad,Utopía Libertad,Relaxation Therapy,Wellness & Therapy,2,0.8461538461538461,1,0.8461538461538461
+libertad,Utopía Libertad,Temazcal,Wellness & Therapy,3,0.7692307692307692,2,1.5384615384615383
+libertad,Utopía Libertad,Yoga,Wellness & Therapy,5,0.6153846153846154,1,0.6153846153846154
+meyehualco,Utopia Meyehualco,Swimming Classes,Aquatics,10,0.23076923076923073,1,0.23076923076923073
+meyehualco,Utopia Meyehualco,Swimming Pool,Aquatics,10,0.23076923076923073,2,0.46153846153846145
+meyehualco,Utopia Meyehualco,Martial Arts,Combat & Extreme Sports,2,0.8461538461538461,1,0.8461538461538461
+meyehualco,Utopia Meyehualco,Exhibition Access,Education & Technology,1,0.9230769230769231,1,0.9230769230769231
+meyehualco,Utopia Meyehualco,Guided Athletic Training,Fitness,3,0.7692307692307692,1,0.7692307692307692
+meyehualco,Utopia Meyehualco,Indoor Multi-Floor Gym,Fitness,2,0.8461538461538461,2,1.6923076923076923
+meyehualco,Utopia Meyehualco,Dinosaur Theme Park,Landmark Attraction,1,0.9230769230769231,3,2.769230769230769
+meyehualco,Utopia Meyehualco,Artificial Lake,Nature & Biodiversity,3,0.7692307692307692,2,1.5384615384615383
+meyehualco,Utopia Meyehualco,Auditorium,Performing Arts & Culture,8,0.3846153846153846,2,0.7692307692307692
+meyehualco,Utopia Meyehualco,Film School / Cinema Space,Performing Arts & Culture,2,0.8461538461538461,2,1.6923076923076923
+meyehualco,Utopia Meyehualco,Music School,Performing Arts & Culture,6,0.5384615384615384,2,1.0769230769230769
+meyehualco,Utopia Meyehualco,Open-Air Stage,Performing Arts & Culture,7,0.46153846153846156,1,0.46153846153846156
+meyehualco,Utopia Meyehualco,Women's Support Center,Social Services,4,0.6923076923076923,1,0.6923076923076923
+meyehualco,Utopia Meyehualco,Athletics Track (400 m),Team Sports & Athletics,1,0.9230769230769231,2,1.8461538461538463
+meyehualco,Utopia Meyehualco,Basketball Court,Team Sports & Athletics,3,0.7692307692307692,1,0.7692307692307692
+meyehualco,Utopia Meyehualco,Soccer Fields,Team Sports & Athletics,7,0.46153846153846156,1,0.46153846153846156
+meyehualco,Utopia Meyehualco,Velodrome,Team Sports & Athletics,1,0.9230769230769231,3,2.769230769230769
+meyehualco,Utopia Meyehualco,Rehabilitation Center,Wellness & Therapy,5,0.6153846153846154,2,1.2307692307692308
+olini,Utopia Olini,Swimming Classes,Aquatics,10,0.23076923076923073,1,0.23076923076923073
+olini,Utopia Olini,Swimming Pool,Aquatics,10,0.23076923076923073,2,0.46153846153846145
+olini,Utopia Olini,Skatepark,Combat & Extreme Sports,4,0.6923076923076923,2,1.3846153846153846
+olini,Utopia Olini,Geodesic Domes,Fitness,1,0.9230769230769231,2,1.8461538461538463
+olini,Utopia Olini,Guided Athletic Training,Fitness,3,0.7692307692307692,1,0.7692307692307692
+olini,Utopia Olini,Rhythmic / Artistic Gymnastics,Fitness,1,0.9230769230769231,1,0.9230769230769231
+olini,Utopia Olini,Skating Programs,Fitness,1,0.9230769230769231,1,0.9230769230769231
+olini,Utopia Olini,Ice Rink,Landmark Attraction,1,0.9230769230769231,3,2.769230769230769
+olini,Utopia Olini,Wave Pool,Landmark Attraction,1,0.9230769230769231,3,2.769230769230769
+olini,Utopia Olini,Artificial Lake,Nature & Biodiversity,3,0.7692307692307692,2,1.5384615384615383
+olini,Utopia Olini,Arts Workshops,Performing Arts & Culture,4,0.6923076923076923,1,0.6923076923076923
+olini,Utopia Olini,Open-Air Stage,Performing Arts & Culture,7,0.46153846153846156,1,0.46153846153846156
+olini,Utopia Olini,Hockey,Team Sports & Athletics,1,0.9230769230769231,2,1.8461538461538463
+olini,Utopia Olini,Running Track,Team Sports & Athletics,7,0.46153846153846156,1,0.46153846153846156
+papalotl,Utopia Papalotl,Splash Pad & Water Play,Aquatics,4,0.6923076923076923,1,0.6923076923076923
+papalotl,Utopia Papalotl,Swimming Classes,Aquatics,10,0.23076923076923073,1,0.23076923076923073
+papalotl,Utopia Papalotl,Swimming Pool,Aquatics,10,0.23076923076923073,2,0.46153846153846145
+papalotl,Utopia Papalotl,Boxing Gym / School,Combat & Extreme Sports,7,0.46153846153846156,2,0.9230769230769231
+papalotl,Utopia Papalotl,Outdoor Gym,Fitness,5,0.6153846153846154,1,0.6153846153846154
+papalotl,Utopia Papalotl,Butterfly House,Nature & Biodiversity,2,0.8461538461538461,2,1.6923076923076923
+papalotl,Utopia Papalotl,Orchid Garden,Nature & Biodiversity,1,0.9230769230769231,2,1.8461538461538463
+papalotl,Utopia Papalotl,Arts Workshops,Performing Arts & Culture,4,0.6923076923076923,1,0.6923076923076923
+papalotl,Utopia Papalotl,Auditorium,Performing Arts & Culture,8,0.3846153846153846,2,0.7692307692307692
+papalotl,Utopia Papalotl,Dance School,Performing Arts & Culture,7,0.46153846153846156,1,0.46153846153846156
+papalotl,Utopia Papalotl,Film School / Cinema Space,Performing Arts & Culture,2,0.8461538461538461,2,1.6923076923076923
+papalotl,Utopia Papalotl,Running Track,Team Sports & Athletics,7,0.46153846153846156,1,0.46153846153846156
+papalotl,Utopia Papalotl,Yoga,Wellness & Therapy,5,0.6153846153846154,1,0.6153846153846154
+quetzalcoatl,Utopia Quetzalcoatl,Swimming Classes,Aquatics,10,0.23076923076923073,1,0.23076923076923073
+quetzalcoatl,Utopia Quetzalcoatl,Swimming Pool,Aquatics,10,0.23076923076923073,2,0.46153846153846145
+quetzalcoatl,Utopia Quetzalcoatl,Boxing Gym / School,Combat & Extreme Sports,7,0.46153846153846156,2,0.9230769230769231
+quetzalcoatl,Utopia Quetzalcoatl,Climbing Wall,Combat & Extreme Sports,3,0.7692307692307692,2,1.5384615384615383
+quetzalcoatl,Utopia Quetzalcoatl,Parkour Area,Combat & Extreme Sports,2,0.8461538461538461,1,0.8461538461538461
+quetzalcoatl,Utopia Quetzalcoatl,Skatepark,Combat & Extreme Sports,4,0.6923076923076923,2,1.3846153846153846
+quetzalcoatl,Utopia Quetzalcoatl,Guided Athletic Training,Fitness,3,0.7692307692307692,1,0.7692307692307692
+quetzalcoatl,Utopia Quetzalcoatl,Children's Play Area,General Recreation,6,0.5384615384615384,1,0.5384615384615384
+quetzalcoatl,Utopia Quetzalcoatl,Cultural & Recreational Activities,General Recreation,2,0.8461538461538461,1,0.8461538461538461
+quetzalcoatl,Utopia Quetzalcoatl,Green Areas / Urban Park,General Recreation,4,0.6923076923076923,1,0.6923076923076923
+quetzalcoatl,Utopia Quetzalcoatl,Airplane Library & Flight Simulator,Landmark Attraction,2,0.8461538461538461,3,2.5384615384615383
+quetzalcoatl,Utopia Quetzalcoatl,Cultural Workshop Tents / Teepees,Performing Arts & Culture,1,0.9230769230769231,1,0.9230769230769231
+quetzalcoatl,Utopia Quetzalcoatl,Multi-Use Rooms,Performing Arts & Culture,3,0.7692307692307692,1,0.7692307692307692
+quetzalcoatl,Utopia Quetzalcoatl,Elderly Support Center,Social Services,2,0.8461538461538461,1,0.8461538461538461
+quetzalcoatl,Utopia Quetzalcoatl,Women's Support Center,Social Services,4,0.6923076923076923,1,0.6923076923076923
+quetzalcoatl,Utopia Quetzalcoatl,Basketball Court,Team Sports & Athletics,3,0.7692307692307692,1,0.7692307692307692
+quetzalcoatl,Utopia Quetzalcoatl,Multi-Sports Court,Team Sports & Athletics,7,0.46153846153846156,1,0.46153846153846156
+quetzalcoatl,Utopia Quetzalcoatl,Running Track,Team Sports & Athletics,7,0.46153846153846156,1,0.46153846153846156
+quetzalcoatl,Utopia Quetzalcoatl,Soccer Fields,Team Sports & Athletics,7,0.46153846153846156,1,0.46153846153846156
+quetzalcoatl,Utopia Quetzalcoatl,Early Stimulation & Speech Therapy,Wellness & Therapy,2,0.8461538461538461,1,0.8461538461538461
+quetzalcoatl,Utopia Quetzalcoatl,Hydrotherapy Pool,Wellness & Therapy,3,0.7692307692307692,2,1.5384615384615383
+quetzalcoatl,Utopia Quetzalcoatl,Rehabilitation Center,Wellness & Therapy,5,0.6153846153846154,2,1.2307692307692308
+tecoloxtitlan,Utopía Tecoloxtitlán,Splash Pad & Water Play,Aquatics,4,0.6923076923076923,1,0.6923076923076923
+tecoloxtitlan,Utopía Tecoloxtitlán,Martial Arts,Combat & Extreme Sports,2,0.8461538461538461,1,0.8461538461538461
+tecoloxtitlan,Utopía Tecoloxtitlán,Scientific Research Center,Education & Technology,1,0.9230769230769231,3,2.769230769230769
+tecoloxtitlan,Utopía Tecoloxtitlán,Outdoor Gym,Fitness,5,0.6153846153846154,1,0.6153846153846154
+tecoloxtitlan,Utopía Tecoloxtitlán,Central Kiosk,General Recreation,1,0.9230769230769231,1,0.9230769230769231
+tecoloxtitlan,Utopía Tecoloxtitlán,Children's Play Area,General Recreation,6,0.5384615384615384,1,0.5384615384615384
+tecoloxtitlan,Utopía Tecoloxtitlán,Green Areas / Urban Park,General Recreation,4,0.6923076923076923,1,0.6923076923076923
+tecoloxtitlan,Utopía Tecoloxtitlán,Urban / Sustainable Garden,Nature & Biodiversity,2,0.8461538461538461,1,0.8461538461538461
+tecoloxtitlan,Utopía Tecoloxtitlán,Dance School,Performing Arts & Culture,7,0.46153846153846156,1,0.46153846153846156
+tecoloxtitlan,Utopía Tecoloxtitlán,Multi-Use Rooms,Performing Arts & Culture,3,0.7692307692307692,1,0.7692307692307692
+tecoloxtitlan,Utopía Tecoloxtitlán,Music School,Performing Arts & Culture,6,0.5384615384615384,2,1.0769230769230769
+tecoloxtitlan,Utopía Tecoloxtitlán,Open-Air Stage,Performing Arts & Culture,7,0.46153846153846156,1,0.46153846153846156
+tecoloxtitlan,Utopía Tecoloxtitlán,Theater,Performing Arts & Culture,1,0.9230769230769231,1,0.9230769230769231
+tecoloxtitlan,Utopía Tecoloxtitlán,Running Track,Team Sports & Athletics,7,0.46153846153846156,1,0.46153846153846156
+tecoloxtitlan,Utopía Tecoloxtitlán,Temazcal,Wellness & Therapy,3,0.7692307692307692,2,1.5384615384615383
+tecoloxtitlan,Utopía Tecoloxtitlán,Yoga,Wellness & Therapy,5,0.6153846153846154,1,0.6153846153846154
+teotongo,Utopia Teotongo,Swimming Classes,Aquatics,10,0.23076923076923073,1,0.23076923076923073
+teotongo,Utopia Teotongo,Swimming Pool,Aquatics,10,0.23076923076923073,2,0.46153846153846145
+teotongo,Utopia Teotongo,Boxing Gym / School,Combat & Extreme Sports,7,0.46153846153846156,2,0.9230769230769231
+teotongo,Utopia Teotongo,Parkour Area,Combat & Extreme Sports,2,0.8461538461538461,1,0.8461538461538461
+teotongo,Utopia Teotongo,Skatepark,Combat & Extreme Sports,4,0.6923076923076923,2,1.3846153846153846
+teotongo,Utopia Teotongo,Library / Reading Space,Education & Technology,3,0.7692307692307692,1,0.7692307692307692
+teotongo,Utopia Teotongo,Outdoor Gym,Fitness,5,0.6153846153846154,1,0.6153846153846154
+teotongo,Utopia Teotongo,Children's Play Area,General Recreation,6,0.5384615384615384,1,0.5384615384615384
+teotongo,Utopia Teotongo,Green Areas / Urban Park,General Recreation,4,0.6923076923076923,1,0.6923076923076923
+teotongo,Utopia Teotongo,Airplane Library & Flight Simulator,Landmark Attraction,2,0.8461538461538461,3,2.5384615384615383
+teotongo,Utopia Teotongo,Magic Fountain,Landmark Attraction,1,0.9230769230769231,2,1.8461538461538463
+teotongo,Utopia Teotongo,Arts Workshops,Performing Arts & Culture,4,0.6923076923076923,1,0.6923076923076923
+teotongo,Utopia Teotongo,Auditorium,Performing Arts & Culture,8,0.3846153846153846,2,0.7692307692307692
+teotongo,Utopia Teotongo,Dance School,Performing Arts & Culture,7,0.46153846153846156,1,0.46153846153846156
+teotongo,Utopia Teotongo,Multi-Use Rooms,Performing Arts & Culture,3,0.7692307692307692,1,0.7692307692307692
+teotongo,Utopia Teotongo,Multi-Sports Court,Team Sports & Athletics,7,0.46153846153846156,1,0.46153846153846156
+teotongo,Utopia Teotongo,Running Track,Team Sports & Athletics,7,0.46153846153846156,1,0.46153846153846156
+teotongo,Utopia Teotongo,Soccer Fields,Team Sports & Athletics,7,0.46153846153846156,1,0.46153846153846156
+teotongo,Utopia Teotongo,Tai Chi,Wellness & Therapy,2,0.8461538461538461,1,0.8461538461538461
+teotongo,Utopia Teotongo,Yoga,Wellness & Therapy,5,0.6153846153846154,1,0.6153846153846154
+tezontli,Utopia Tezontli,Splash Pad & Water Play,Aquatics,4,0.6923076923076923,1,0.6923076923076923
+tezontli,Utopia Tezontli,Swimming Classes,Aquatics,10,0.23076923076923073,1,0.23076923076923073
+tezontli,Utopia Tezontli,Swimming Pool,Aquatics,10,0.23076923076923073,2,0.46153846153846145
+tezontli,Utopia Tezontli,BMX Track,Combat & Extreme Sports,1,0.9230769230769231,3,2.769230769230769
+tezontli,Utopia Tezontli,Boxing Gym / School,Combat & Extreme Sports,7,0.46153846153846156,2,0.9230769230769231
+tezontli,Utopia Tezontli,Climbing Wall,Combat & Extreme Sports,3,0.7692307692307692,2,1.5384615384615383
+tezontli,Utopia Tezontli,Classroom / Teaching Space,Education & Technology,1,0.9230769230769231,1,0.9230769230769231
+tezontli,Utopia Tezontli,Outdoor Gym,Fitness,5,0.6153846153846154,1,0.6153846153846154
+tezontli,Utopia Tezontli,Dog Park,General Recreation,2,0.8461538461538461,1,0.8461538461538461
+tezontli,Utopia Tezontli,Artificial Lake,Nature & Biodiversity,3,0.7692307692307692,2,1.5384615384615383
+tezontli,Utopia Tezontli,Auditorium,Performing Arts & Culture,8,0.3846153846153846,2,0.7692307692307692
+tezontli,Utopia Tezontli,Fronton Court,Racquet & Court Sports,1,0.9230769230769231,1,0.9230769230769231
+tezontli,Utopia Tezontli,Soccer Fields,Team Sports & Athletics,7,0.46153846153846156,1,0.46153846153846156
+tezontli,Utopia Tezontli,Relaxation Therapy,Wellness & Therapy,2,0.8461538461538461,1,0.8461538461538461

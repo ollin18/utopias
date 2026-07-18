@@ -1,0 +1,160 @@
+---
+title: "Utopías of Iztapalapa"
+subtitle: "Who reaches the network, and what distinguishes the sites that draw from across the city"
+author: "Ollin D. Langle-Chimal"
+date: today
+format:
+  html:
+    page-layout: full
+    body-width: 100%
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    theme: cosmo
+    html-math-method: katex
+jupyter: python3
+---
+
+## Setup
+
+The analysis works from the published per-site table. Each row is one Utopía,
+with its visitor counts, home-to-site distances, wealth mix, place-level
+segregation, transit supply, service catalog and surrounding crime already
+aggregated. The upstream steps that build these columns from the raw mobility,
+transit and crime feeds are not part of this repository.
+
+```{python}
+import os
+os.chdir("..")  # run from the repository root
+
+import numpy as np
+import pandas as pd
+
+from data import load_summary, load_items, build_axes, domain_counts
+from stats import (correlation_table, standardized_regression, partial_axes,
+                   correlate, permutation_pearson)
+from figures import style, scatter_fit, barh_sites, corr_heatmap, typology_plot, label
+
+style()
+
+m = build_axes(load_summary())
+items = load_items()
+sites = list(m["utopia_name"])
+m[["utopia_name", "n_unique_visitors", "median_distance_km", "median_wealth",
+   "place_seg_S_a", "transit_score", "distinctiveness_index",
+   "violent_share", "composite_score"]].round(3)
+```
+
+## Headline correlations
+
+Every relationship is a Pearson correlation over the thirteen sites, with a
+two-sided permutation p-value; visit counts enter on a log10 scale. With
+$n = 13$ we read $p$ between 0.05 and 0.10 as suggestive rather than settled.
+
+```{python}
+pairs = [
+    ("transit_score", "n_unique_visitors", "transit -> visitors", True),
+    ("distinctiveness_index", "n_unique_visitors", "distinctiveness -> visitors", True),
+    ("distinctiveness_index", "weekend_distance_premium_km", "distinctiveness -> weekend premium", False),
+    ("violent_share", "mean_wealth", "violent share -> visitor wealth", False),
+    ("violent_share", "mean_distance_km", "violent share -> distance", False),
+    ("violent_share", "place_seg_S_a", "violent share -> segregation", False),
+    ("crime_per_km2", "n_unique_visitors", "crime density -> visitors", True),
+    ("place_seg_S_a", "mean_distance_km", "segregation -> distance", False),
+    ("access_gravity", "n_unique_visitors", "gravity access -> visitors", True),
+    ("composite_score", "n_unique_visitors", "composite -> visitors", True),
+]
+correlation_table(m, pairs)
+```
+
+Transit supply is the strongest correlate of how many people come; the
+distinctiveness of the offer is unrelated to volume but tracks how much farther
+weekend visitors travel; the violent share of surrounding crime tracks who comes
+rather than how many.
+
+## The three axes together
+
+```{python}
+partial_axes(m)
+```
+
+```{python}
+standardized_regression(m)
+```
+
+Controlling for services and crime leaves the transit association intact, and it
+carries essentially all of the composite's link to volume.
+
+## Service offer and travel distance
+
+```{python}
+attrs = [("n_facilities", "Facilities"), ("n_landmark", "Landmark items"),
+         ("avg_rarity", "Avg. rarity"), ("avg_infra", "Avg. infrastructure"),
+         ("sum_distinctiveness", "Sum distinctiveness"),
+         ("distinctiveness_index", "Distinctiveness index")]
+outcomes = [("n_unique_visitors", "Visitors"), ("mean_distance_km", "Mean distance"),
+            ("weekend_distance_premium_km", "Weekend premium"),
+            ("weekend_share", "Weekend share"), ("recurrence_rate", "Recurrence"),
+            ("mean_wealth", "Visitor wealth"), ("place_seg_S_a", "Segregation")]
+corr_heatmap(m, attrs, outcomes, "heat_attributes", logy_cols={"n_unique_visitors"})
+scatter_fit(m, "distinctiveness_index", "weekend_distance_premium_km",
+            "Service distinctiveness index", "Weekend distance premium (km)",
+            "distinct_vs_premium")
+```
+
+The weekend distance premium is the column that responds to the offer; the raw
+visitor count does not.
+
+```{python}
+dom = domain_counts(items, sites)
+dom_pred = [(c, c) for c in dom.columns]
+md = m.set_index("utopia_name").join(dom)[[c for c in dom.columns]].reset_index()
+md = md.rename(columns={"index": "utopia_name"}).merge(
+    m[["utopia_name"] + [c for _, c in outcomes]], on="utopia_name")
+corr_heatmap(md, dom_pred, outcomes, "heat_domains", logy_cols={"n_unique_visitors"})
+```
+
+## Transit and visitor volume
+
+```{python}
+tmetrics = [("transit_score", "Transit score"), ("n_routes_1km", "Routes"),
+            ("n_modes_1km", "Modes"), ("weekday_trips_1km", "Weekday trips"),
+            ("weekend_transit_ratio", "Weekend/weekday"),
+            ("has_metro_1km", "Metro"), ("has_brt_1km", "BRT")]
+corr_heatmap(m, tmetrics, outcomes, "heat_transit", logy_cols={"n_unique_visitors"})
+scatter_fit(m, "transit_score", "n_unique_visitors", "Transit accessibility score",
+            "Unique visitors", "axis_transit_vs_visitors", logy=True)
+```
+
+## Surrounding violence and who is reached
+
+```{python}
+scatter_fit(m, "violent_share", "mean_wealth", "Violent share of crime",
+            "Mean visitor wealth", "violent_vs_wealth", statloc="upper right")
+scatter_fit(m, "violent_share", "mean_distance_km", "Violent share of crime",
+            "Mean distance from home (km)", "violent_vs_distance", statloc="upper right")
+```
+
+## Wealth, distance and segregation
+
+```{python}
+scatter_fit(m, "mean_distance_km", "place_seg_S_a", "Mean home-to-site distance (km)",
+            "Place-level segregation $S_a$", "Sa_vs_distance",
+            xerr="distance_sem_km", statloc="upper right")
+barh_sites(m.set_index("utopia_name")["place_seg_S_a"], "Place-level segregation $S_a$",
+           "Sa_per_utopia", fmt="{:.2f}")
+```
+
+## The composite and the typology
+
+```{python}
+barh_sites(m.set_index("utopia_name")["n_unique_visitors"],
+           "Unique visitors (log scale)", "visitors_per_utopia", logx=True)
+scatter_fit(m, "composite_score", "n_unique_visitors", "Composite accessibility score",
+            "Unique visitors", "composite_vs_visitors", logy=True)
+typology_plot(m, "access_typology")
+```
+
+Transit and distinctiveness are the two levers a planner controls directly.
+Crossing them splits the network into flagship destinations, connected
+neighborhood hubs, under-connected attractions, and neighborhood spaces.
