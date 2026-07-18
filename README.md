@@ -64,14 +64,3 @@ The volume of surrounding crime is unrelated to visits (r = -0.01). The violent 
 ![Access typology](figs/access_typology.png)
 
 Transit access and service distinctiveness are the two levers a planner controls directly. Crossing them splits the network into flagship destinations, connected neighborhood hubs, under-connected attractions and neighborhood spaces.
-
-## Authors
-
-- **Ollin D. Langle-Chimal** - University of California, Berkeley (ollin18)
-- **Natalia Cadavid-Aguilar** - Tecnológico de Monterrey
-- **Alberto Meouchi-Vélez** - Tecnológico de Monterrey
-- **Roberto Ponce-López** - Tecnológico de Monterrey
-
-## Contact
-
-For questions about the methodology or code, please contact the corresponding author or open an issue in this repository.
