@@ -1,6 +1,6 @@
 ---
 title: "Utopías of Iztapalapa"
-subtitle: "Who reaches the network, and what distinguishes the sites that draw from across the city"
+subtitle: "Who reaches them"
 author: "Ollin D. Langle-Chimal"
 date: today
 format:
