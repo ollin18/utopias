@@ -9,9 +9,6 @@ from numpy.linalg import lstsq
 
 def permutation_pearson(x, y, n_perm: int = 10_000, seed: int = 20240711):
     """Pearson r with a two-sided permutation p-value.
-
-    A fresh RNG is seeded per call so a given (x, y) always returns the same p,
-    independent of call order.
     """
     x, y = np.asarray(x, float), np.asarray(y, float)
     mask = np.isfinite(x) & np.isfinite(y)
